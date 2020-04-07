@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.StartButtonSkin"
+	states="up,down,disabled" width="202"
+	height="60" currentState="down" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="iconDisplay" source="startButton_png" verticalCenter="0" horizontalCenter="0" verticalCenter.down="5" height.down="60" height.up="60"/>
+	<e:Label id="labelDisplay" includeIn="up,down" horizontalCenter="0" textAlign="center" verticalAlign="middle" height="60" verticalCenter="0" verticalCenter.down="5"/>
+</e:Skin>

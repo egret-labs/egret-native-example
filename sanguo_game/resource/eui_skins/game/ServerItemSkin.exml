@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.ServerItemSkin"
+	 width="450"
+	height="100" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="common1_png" left="0" top="0" bottom="0" right="0" scale9Grid="9,19,108,19"/>
+	<e:Label id="serverNameLabel" text="服务器1" anchorOffsetX="0" anchorOffsetY="0" left="30" top="10" bottom="10" right="30" textAlign="center" verticalAlign="middle" size="40"/>
+</e:Skin>

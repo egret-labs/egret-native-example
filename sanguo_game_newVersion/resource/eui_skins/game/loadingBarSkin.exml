@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.loadingBarSkin"
+	 width="582"
+	height="60" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="loadingKuang_png" left="0" right="0" visible="true" bottom="0"/>
+	<e:Image id="bottomBar" source="loadingDi_png" left="0" right="0" visible="true" bottom="0"/>
+	<e:Image id="mainBar" source="loadingBar_png" left="3" visible="true" bottom="1"/>
+	<e:Label id="progressLabel" text="(10/100)" top="5" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LoginPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Image id="bg" source="dengluBg_jpg" left="0" top="0" right="0"/>
+	<ns1:LoadingBar id="loadingBar" width="582" height="60" horizontalCenter="0" bottom="160" skinName="skins.loadingBarSkin" visible="false"/>
+	<e:Image source="version_png" bottom="0" horizontalCenter="0"/>
+	<e:Button id="startButton" bottom="240" horizontalCenter="0"/>
+	<ns1:ChooseServerPanel id="chooseServerPanel" left="0" top="0" bottom="0" right="0" visible="false"/>
+	<ns1:TipsPanel id="tipsPanel" top="0" bottom="0" left="0" right="0" visible="false"/>
+</e:Skin>

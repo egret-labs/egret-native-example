@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.ChooseServerPanelSkin"
+	 width="640"
+	height="1136" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="black" source="black_jpg" left="0" top="0" bottom="0" right="0" alpha="0.4"/>
+	<e:Image source="common0_png" scale9Grid="19,26,226,25" top="176" bottom="214" anchorOffsetY="0" left="70" right="70"/>
+	<e:Scroller id="scroller" top="200" bottom="245" left="90" right="90">
+		<e:List id="list" itemRendererSkinName="skins.ServerItemSkin" useVirtualLayout="true" y="0">
+			<e:layout>
+				<e:VerticalLayout gap="20" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>
