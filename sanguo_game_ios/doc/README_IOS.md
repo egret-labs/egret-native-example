@@ -45,7 +45,7 @@
 ## 发布工程的个性化配置
 
 - 解决国行手机首次启动需要请求网络权限的问题
-    - 模版中通过[_native setNetworkStatusChangeCallback:]监听网络状态，有网络连接时才启动游戏。
+    - 模版中通过`[_native setNetworkStatusChangeCallback:]`监听网络状态，有网络连接时才启动游戏。
 
 - 访问相册权限的问题
     - 为了支持保存截图到本地的功能，模版中默认注册了访问相册的权限，如不需要可以从info.plist中删除。
@@ -70,6 +70,7 @@
     - 是否禁用核心渲染驱动：修改`_native.config.disableNativeRender = false/true`。false为启用核心渲染驱动，true为禁用核心渲染驱动。
     - 是否清理缓存：修改`_native.config.clearCache = false/true;`。false为不自动清理缓存，true为自动清理缓存。
     - 控制页面超时时间：修改`_native.config.loadingTimeout = 0;`。单位为秒，0为不设置超时。
+    - 游戏是否支持刘海屏显示：修改`_native.config.useCutout = false;`。true 为游戏支持并适配，false为不支持。
     
 ---
 

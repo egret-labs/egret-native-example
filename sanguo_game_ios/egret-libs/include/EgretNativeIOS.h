@@ -1,6 +1,6 @@
 // Copyright (C) Egret Technology. All rights reserved.
-// EgretRuntimeVersion: 1.0.1
-// EgretRuntimeBuild: b199ebb4
+// EgretRuntimeVersion: 1.0.2
+// EgretRuntimeBuild: abf4213b
 #import <UIKit/UIKit.h>
 
 @interface EgretNativeConfig : NSObject

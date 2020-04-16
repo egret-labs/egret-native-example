@@ -27,27 +27,18 @@
 		307B49CF2059046B003D64E0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307B49CE2059046B003D64E0 /* AdSupport.framework */; };
 		30CE267B2063AC44000F4D0D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30CE267A2063AC44000F4D0D /* icon.png */; };
 		30E559EA200F1DE2001C0B78 /* libEgretNativeIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E559E9200F1DE2001C0B78 /* libEgretNativeIOS.a */; };
-		B3AE872B2438E677003DD854 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3AE87292438E65D003DD854 /* ZipArchive.mm */; };
-		B3AE872C2438E67E003DD854 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B3AE87202438E65D003DD854 /* unzip.c */; };
-		B3AE872D2438E684003DD854 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B3AE87212438E65D003DD854 /* zip.c */; };
-		B3AE872E2438E769003DD854 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B3AE87222438E65D003DD854 /* ioapi.c */; };
-		B3AE872F2438E774003DD854 /* mztools.h in Sources */ = {isa = PBXBuildFile; fileRef = B3AE87272438E65D003DD854 /* mztools.h */; };
+		B3DF2B9D24485ED600574DC7 /* mztools.h in Sources */ = {isa = PBXBuildFile; fileRef = B3DF2B9A24485ECE00574DC7 /* mztools.h */; };
+		B3DF2B9E24485EDD00574DC7 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B3DF2B9524485ECE00574DC7 /* ioapi.c */; };
+		B3DF2B9F24485EE200574DC7 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B3DF2B9424485ECE00574DC7 /* zip.c */; };
+		B3DF2BA024485EE800574DC7 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B3DF2B9324485ECE00574DC7 /* unzip.c */; };
+		B3DF2BA124485EEE00574DC7 /* ZipArchive.h in Sources */ = {isa = PBXBuildFile; fileRef = B3DF2B9124485ECE00574DC7 /* ZipArchive.h */; };
+		B3DF2BA22448612100574DC7 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3DF2B9C24485ECE00574DC7 /* ZipArchive.mm */; };
+		ED50D6502436EB69005B9E1E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50D64F2436EB69005B9E1E /* CoreMedia.framework */; };
+		ED50D6522436EB70005B9E1E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50D6512436EB70005B9E1E /* AVKit.framework */; };
 		ED9FBC2E21830D2A005A5DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9FBC2D21830D2A005A5DF0 /* UIKit.framework */; };
 		ED9FBC3021830D50005A5DF0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9FBC2F21830D50005A5DF0 /* CoreText.framework */; };
 		ED9FBC3221830D63005A5DF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9FBC3121830D63005A5DF0 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B3AE871C2438E642003DD854 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		305DF7A2200D95C5008022B6 /* game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = game; path = assets/game; sourceTree = "<group>"; };
@@ -76,17 +67,19 @@
 		30CE267A2063AC44000F4D0D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		30E559E9200F1DE2001C0B78 /* libEgretNativeIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEgretNativeIOS.a; path = "egret-libs/libEgretNativeIOS.a"; sourceTree = "<group>"; };
 		84860E512179DA92001FCEE7 /* README_IOS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_IOS.md; sourceTree = "<group>"; };
-		B3AE871E2438E65D003DD854 /* ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
-		B3AE87202438E65D003DD854 /* unzip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		B3AE87212438E65D003DD854 /* zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		B3AE87222438E65D003DD854 /* ioapi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		B3AE87232438E65D003DD854 /* mztools.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		B3AE87242438E65D003DD854 /* crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		B3AE87252438E65D003DD854 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		B3AE87262438E65D003DD854 /* unzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		B3AE87272438E65D003DD854 /* mztools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		B3AE87282438E65D003DD854 /* ioapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		B3AE87292438E65D003DD854 /* ZipArchive.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		B3DF2B9124485ECE00574DC7 /* ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		B3DF2B9324485ECE00574DC7 /* unzip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		B3DF2B9424485ECE00574DC7 /* zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		B3DF2B9524485ECE00574DC7 /* ioapi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		B3DF2B9624485ECE00574DC7 /* mztools.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		B3DF2B9724485ECE00574DC7 /* crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		B3DF2B9824485ECE00574DC7 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		B3DF2B9924485ECE00574DC7 /* unzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		B3DF2B9A24485ECE00574DC7 /* mztools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		B3DF2B9B24485ECE00574DC7 /* ioapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		B3DF2B9C24485ECE00574DC7 /* ZipArchive.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		ED50D64F2436EB69005B9E1E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ED50D6512436EB70005B9E1E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		ED9FBC2D21830D2A005A5DF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED9FBC2F21830D50005A5DF0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		ED9FBC3121830D63005A5DF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +102,8 @@
 				306A7ABB200C898400E1EBB6 /* libicucore.tbd in Frameworks */,
 				306A7AB7200C892500E1EBB6 /* libiconv.tbd in Frameworks */,
 				306A7AB5200C891B00E1EBB6 /* libz.tbd in Frameworks */,
+				ED50D6502436EB69005B9E1E /* CoreMedia.framework in Frameworks */,
+				ED50D6522436EB70005B9E1E /* AVKit.framework in Frameworks */,
 				306A7AB3200C890E00E1EBB6 /* SystemConfiguration.framework in Frameworks */,
 				306A7AAF200C88F600E1EBB6 /* Foundation.framework in Frameworks */,
 				306A7AB1200C890300E1EBB6 /* OpenAL.framework in Frameworks */,
@@ -131,7 +126,7 @@
 		306A7A84200C83F500E1EBB6 = {
 			isa = PBXGroup;
 			children = (
-				B3AE871D2438E65D003DD854 /* zipArchive */,
+				B3DF2B9024485ECE00574DC7 /* zipArchive */,
 				84860E502179DA92001FCEE7 /* doc */,
 				305DF7A1200D957D008022B6 /* assets */,
 				306A7A8F200C83F500E1EBB6 /* ios-template */,
@@ -174,6 +169,8 @@
 		306A7AA7200C88C500E1EBB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED50D6512436EB70005B9E1E /* AVKit.framework */,
+				ED50D64F2436EB69005B9E1E /* CoreMedia.framework */,
 				ED9FBC3121830D63005A5DF0 /* CoreGraphics.framework */,
 				ED9FBC2F21830D50005A5DF0 /* CoreText.framework */,
 				ED9FBC2D21830D2A005A5DF0 /* UIKit.framework */,
@@ -204,29 +201,28 @@
 			path = doc;
 			sourceTree = "<group>";
 		};
-		B3AE871D2438E65D003DD854 /* zipArchive */ = {
+		B3DF2B9024485ECE00574DC7 /* zipArchive */ = {
 			isa = PBXGroup;
 			children = (
-				B3AE871E2438E65D003DD854 /* ZipArchive.h */,
-				B3AE871F2438E65D003DD854 /* minizip */,
-				B3AE87292438E65D003DD854 /* ZipArchive.mm */,
+				B3DF2B9124485ECE00574DC7 /* ZipArchive.h */,
+				B3DF2B9224485ECE00574DC7 /* minizip */,
+				B3DF2B9C24485ECE00574DC7 /* ZipArchive.mm */,
 			);
-			name = zipArchive;
-			path = "ios-template/zipArchive";
+			path = zipArchive;
 			sourceTree = "<group>";
 		};
-		B3AE871F2438E65D003DD854 /* minizip */ = {
+		B3DF2B9224485ECE00574DC7 /* minizip */ = {
 			isa = PBXGroup;
 			children = (
-				B3AE87202438E65D003DD854 /* unzip.c */,
-				B3AE87212438E65D003DD854 /* zip.c */,
-				B3AE87222438E65D003DD854 /* ioapi.c */,
-				B3AE87232438E65D003DD854 /* mztools.c */,
-				B3AE87242438E65D003DD854 /* crypt.h */,
-				B3AE87252438E65D003DD854 /* zip.h */,
-				B3AE87262438E65D003DD854 /* unzip.h */,
-				B3AE87272438E65D003DD854 /* mztools.h */,
-				B3AE87282438E65D003DD854 /* ioapi.h */,
+				B3DF2B9324485ECE00574DC7 /* unzip.c */,
+				B3DF2B9424485ECE00574DC7 /* zip.c */,
+				B3DF2B9524485ECE00574DC7 /* ioapi.c */,
+				B3DF2B9624485ECE00574DC7 /* mztools.c */,
+				B3DF2B9724485ECE00574DC7 /* crypt.h */,
+				B3DF2B9824485ECE00574DC7 /* zip.h */,
+				B3DF2B9924485ECE00574DC7 /* unzip.h */,
+				B3DF2B9A24485ECE00574DC7 /* mztools.h */,
+				B3DF2B9B24485ECE00574DC7 /* ioapi.h */,
 			);
 			path = minizip;
 			sourceTree = "<group>";
@@ -241,7 +237,6 @@
 				306A7A89200C83F500E1EBB6 /* Sources */,
 				306A7A8A200C83F500E1EBB6 /* Frameworks */,
 				306A7A8B200C83F500E1EBB6 /* Resources */,
-				B3AE871C2438E642003DD854 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -305,11 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AE872F2438E774003DD854 /* mztools.h in Sources */,
-				B3AE872E2438E769003DD854 /* ioapi.c in Sources */,
-				B3AE872D2438E684003DD854 /* zip.c in Sources */,
-				B3AE872C2438E67E003DD854 /* unzip.c in Sources */,
-				B3AE872B2438E677003DD854 /* ZipArchive.mm in Sources */,
+				B3DF2BA22448612100574DC7 /* ZipArchive.mm in Sources */,
+				B3DF2B9D24485ED600574DC7 /* mztools.h in Sources */,
+				B3DF2B9E24485EDD00574DC7 /* ioapi.c in Sources */,
+				B3DF2B9F24485EE200574DC7 /* zip.c in Sources */,
+				B3DF2BA024485EE800574DC7 /* unzip.c in Sources */,
+				B3DF2BA124485EEE00574DC7 /* ZipArchive.h in Sources */,
 				306A7A98200C83F500E1EBB6 /* ViewController.mm in Sources */,
 				306A7A95200C83F500E1EBB6 /* AppDelegate.mm in Sources */,
 				306A7A92200C83F500E1EBB6 /* main.m in Sources */,
@@ -422,7 +418,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/egret-libs";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sanguo-game";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egret.project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -438,7 +434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/egret-libs";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sanguo-game";
+				PRODUCT_BUNDLE_IDENTIFIER = com.egret.project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
